@@ -22,10 +22,8 @@ To compile the abacus source code on Arch Linux, you can follow these steps. Fir
    Run the make command to compile abacus with the necessary options for debugging and testing.
 
    ```bash
-   make TARGET=server DEBUG=1 TEST=1
+   make TARGET=agent DEBUG=1 TEST=1
    ```
-
-   Replace `server` with `agent` if you are compiling the agent.
 
 4. **Run the Build Script**:
    Once the code is compiled, you can use the provided `build.py` script to run various checks and tests. Here is an example of how to use the script with different options.
@@ -86,5 +84,12 @@ To compile the abacus source code on Arch Linux, you can follow these steps. Fir
      ```bash
      python3 build.py --scanbuild agent
      ```
+
+6. **Cleaning Packages**
+
+```
+make -C src clean
+make -C src clean-deps
+```
 
 By following these steps, you should be able to compile abacus source code and use the `build.py` script to run various checks and tests on Arch Linux.
