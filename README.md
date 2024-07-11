@@ -7,7 +7,7 @@ To compile the abacus source code on Arch Linux, you can follow these steps. Fir
 
    ```bash
    sudo pacman -Syu
-   sudo pacman --noconfirm -Syu curl gcc make sudo wget expect gnupg perl-base perl fakeroot python brotli automake autoconf libtool gawk libsigsegv nodejs base-devel inetutils cmake git python3 python-pip valgrind cppcheck lcov astyle clang cmocka
+   sudo pacman --noconfirm -Syu curl gcc make sudo wget expect gnupg perl-base perl fakeroot python brotli automake autoconf libtool gawk libsigsegv nodejs base-devel inetutils cmake git python3 python-pip valgrind cppcheck lcov astyle clang cmocka pcre pcre2 boost boost-libs
    ```
 
 2. **Clone the abacus Repository**:
