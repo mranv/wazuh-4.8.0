@@ -51,7 +51,8 @@ To compile the abacus source code on Arch Linux, you can follow these steps. Fir
    python3 build.py -v shared_modules/dbsync
    ```
 
-   To collect test coverage and generate a report:
+   To collect test make -C src clean
+   make -C src clean-depscoverage and generate a report:
 
    ```bash
    python3 build.py -c shared_modules/dbsync
