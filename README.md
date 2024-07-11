@@ -22,7 +22,8 @@ To compile the abacus source code on Arch Linux, you can follow these steps. Fir
    Run the make command to compile abacus with the necessary options for debugging and testing.
 
    ```bash
-   make TARGET=agent DEBUG=1 TEST=1
+   make -C src deps
+   make -C src TARGET=agent DEBUG=1 TEST=1
    ```
 
 4. **Run the Build Script**:
